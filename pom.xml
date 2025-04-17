@@ -67,7 +67,6 @@
 			<artifactId>jakarta.xml.bind-api</artifactId>
 			<version>4.0.0</version>
 		</dependency>
-		<!-- Activation nécessaire pour JAXB si tu veux jouer safe -->
 		<dependency>
 			<groupId>com.sun.activation</groupId>
 			<artifactId>jakarta.activation</artifactId>
@@ -121,11 +120,6 @@
 					</execution>
 				</executions>
 			</plugin>
-
-			<!-- Le plugin JAXB -->
-			<!-- (collé ici comme montré ci-dessus) -->
-
-			<!-- Pour inclure le code généré dans le build -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
