@@ -1,4 +1,4 @@
-package com.biblio.hybride_rest.dto;
+package com.biblio.hybride_rest.rest.dto;
 
 import lombok.Data;
 

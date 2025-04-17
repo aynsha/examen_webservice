@@ -1,7 +1,7 @@
-package com.biblio.hybride_rest.controller;
+package com.biblio.hybride_rest.rest.controller;
 
-import com.biblio.hybride_rest.model.Livre;
-import com.biblio.hybride_rest.repository.LivreRepository;
+import com.biblio.hybride_rest.rest.model.Livre;
+import com.biblio.hybride_rest.rest.repository.LivreRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

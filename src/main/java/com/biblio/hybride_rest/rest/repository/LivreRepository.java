@@ -1,6 +1,6 @@
-package com.biblio.hybride_rest.repository;
+package com.biblio.hybride_rest.rest.repository;
 
-import com.biblio.hybride_rest.model.Livre;
+import com.biblio.hybride_rest.rest.model.Livre;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 

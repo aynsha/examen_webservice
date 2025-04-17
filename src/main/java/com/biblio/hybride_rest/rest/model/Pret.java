@@ -1,4 +1,4 @@
-package com.biblio.hybride_rest.model;
+package com.biblio.hybride_rest.rest.model;
 
 import jakarta.persistence.*;
 import lombok.*;

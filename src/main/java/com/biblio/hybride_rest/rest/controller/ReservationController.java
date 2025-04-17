@@ -1,15 +1,13 @@
-package com.biblio.hybride_rest.controller;
+package com.biblio.hybride_rest.rest.controller;
 
-import com.biblio.hybride_rest.dto.ReservationRequest;
-import com.biblio.hybride_rest.model.Livre;
-import com.biblio.hybride_rest.model.Reservation;
-import com.biblio.hybride_rest.model.Utilisateur;
-import com.biblio.hybride_rest.repository.LivreRepository;
-import com.biblio.hybride_rest.repository.ReservationRepository;
-import com.biblio.hybride_rest.repository.UtilisateurRepository;
+import com.biblio.hybride_rest.rest.dto.ReservationRequest;
+import com.biblio.hybride_rest.rest.model.Livre;
+import com.biblio.hybride_rest.rest.model.Reservation;
+import com.biblio.hybride_rest.rest.model.Utilisateur;
+import com.biblio.hybride_rest.rest.repository.LivreRepository;
+import com.biblio.hybride_rest.rest.repository.ReservationRepository;
+import com.biblio.hybride_rest.rest.repository.UtilisateurRepository;
 import org.springframework.web.bind.annotation.*;
-
-import java.time.LocalDate;
 
 @RestController
 @RequestMapping("/reservations")
